@@ -1,6 +1,6 @@
-/* Theme Name: searchtrendz */
+/* Theme Name: Test */
 
-body{font: 400 24px Questrial, Arial, Helvetica, sans-serif;}
+body{font: 400 18px Questrial, Arial, Helvetica, sans-serif;line-height: 25px;}
 body span.wpcf7-not-valid-tip {background-color: #fff; border: 2px solid #435c76; border-radius: 5px; padding: 4px 10px; color: #f00; font-size: 12px; display: block; position: absolute; top: -55px; right: 0; font-family: 'Roboto', arial; padding: 4px 10px; }
 body span.wpcf7-not-valid-tip:before, body span.wpcf7-not-valid-tip:after, .screen-reader-response:after {border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 12px solid #fff; bottom: -11px; content: ''; left: 50%; margin-left: -14px; position: absolute;}
 body span.wpcf7-not-valid-tip:before, .screen-reader-response:before {border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 14px solid; border-top-color: inherit; bottom: -14px; margin-left: -16px;}
@@ -31,10 +31,10 @@ div.wpcf7-mail-sent-ok{background: #b5f0b5; margin: 10px 0; color: #000;border-c
 /*Home Page css*/
 
 .home-banner-main-wrap {display: block; width: auto; }
-.home-banner-main-wrap img {width: 100%; max-height: 643px; }
+.home-banner-main-wrap img {width: 100%; max-height: 600px; }
 .banner-content { color: #fff; position: absolute; left: 0; right: 0; margin: 0 auto; top: 20%; text-align: center; }
 .inner-logo img {width: 330px; height: 75px; display: block; margin: 0 auto; }
-.banner-content h1 {text-transform: uppercase; font-size: 70px; margin: 20px 0; }
+.banner-content h1 {text-transform: uppercase; font-size: 70px; margin: 20px 0;line-height: normal; }
 .banner-content h4 {font-size: 20px; max-width: 800px; margin: 20px auto; line-height: normal; }
 .banner-nav-menu ul li {display: inline-block;position: relative; padding: 0 7px; text-transform: uppercase; font-size: 16px; }
 .banner-nav-menu ul li:after {content: ''; width: 1px; height: 17px; background: #fff; position: absolute; right: -3px; }
@@ -44,22 +44,35 @@ div.wpcf7-mail-sent-ok{background: #b5f0b5; margin: 10px 0; color: #000;border-c
 
 
 
-.content-block1 {max-width: 800px; margin: 0 auto;color: #32373c; }
-.common-margin{margin:50px auto;}
-.content-block1 h2 {text-align: center; margin: 0 0 30px; text-transform: capitalize; font-size: 40px; font-weight: 600; }
-.content-block1-slides img {max-width: 185px; padding: 15px; box-shadow: 6px -2px 9px 0 #ddd;transition: all 0.3s linear }
+.content-block1 {max-width: 800px; margin: 0 auto;color: #32373c; padding: 0 10px;}
+.common-margin{margin:50px auto 0;}
+.common-padding{padding: 50px 10px; }
+.content-block1 h2, .solution-highlights h2 {color:#3a4145;text-align: center; margin: 0 0 30px; text-transform: capitalize; font-size: 40px; font-weight: 600; }
+.content-block1-slides img {max-width: 185px;    margin: 0 0 20px; padding: 15px; box-shadow: 6px -2px 9px 0 #ddd;transition: all 0.3s linear }
 .content-block1-slides img:hover{transform:scale(.95); } 
 .content-block1-bottom {text-align: center; margin: 20px 0; font-size: 18px; color: #aaa; }
+.content-block1-slides {text-align: center; } 
+.solution-content {text-align: center;position: relative; }
+.solution-content-wrap {max-width: 75%; margin: 0 auto; } 
+.solution-content img {width: 30%; padding: 0 1% 0; z-index: 1; position: relative; }
+.blue-bg {width: 100%; height: 200px; background: #49629e; position: absolute; bottom: 0; }
+.blue-bg1 {width: 100%; background: #2b3861; height: 10px; z-index: 2; position: relative; }
 
- .solution-content {text-align: center;position: relative; }
- .solution-content img {width: auto; padding: 0 20px 0; z-index: 1; position: relative; }
- .blue-bg {width: 100%; height: 200px; background: #49629e; position: absolute; bottom: 0; }
+.grey-bg{background: #dcdfe6;}
+.solution-highlights {max-width: 600px; margin: 0 auto; }
+.solution-highlights ul li:before {content: '\00BB'; font-size: 18px; margin: 0 10px 0 0; }
 
 
+.client-review {text-align: center; max-width: 600px; border: 1px solid #ddd; margin: 40px auto 50px; padding: 50px; }
+.review-txt {margin: 30px 0; font-weight: 600; }
+.client-info{position: relative;}
+.client-img {width: 70px; height: 70px; background: #eee; display: inline-block; position: absolute; left: 0; top: 50%; transform: translateY(-50%); border-radius: 50%; }
+.client-info .name {text-transform: uppercase; padding: 0 0 0 60px; }
 
-.get-in-touch {background-color: #019cd4; padding-top: 15px; padding-bottom: 10px; color: #fff; }
+
+.get-in-touch {background-color: #019cd4; padding: 35px; color: #fff; }
 .contact-txt {float: left; font-size: 34px; }
-.get-in-touch a {margin: 10px 0 0 15%; background: #fff;border-radius: 3px; color: #333; text-align: center; padding: 15px 20px; font-size: 13px; text-transform: uppercase; }
+.get-in-touch a {margin: 10px 0 0 15%; background: #fff;border-radius: 3px;font-weight: 600; color: #333; text-align: center; padding: 15px 20px; font-size: 13px; text-transform: uppercase; }
 .get-in-touch a:hover{box-shadow: 0 5px 9px 0px #777;color: #019cd4;transition: all 0.03s linear; }
 
 
